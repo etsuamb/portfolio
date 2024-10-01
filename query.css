@@ -1,0 +1,18 @@
+/* Base styles for larger screens */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Media Query for screens smaller than 1400px */
+@media screen and (max-width: 1400px) {
+    .desktop-nav {
+        display: none; /* Hide desktop navigation */
+    }
+}
+
+/* Media Query for screens smaller than 1200px */
+@media screen and (max-width: 1200px) {
+    .profile-section {
+        height: auto; /* Adjust height for profile section */
+    }
+}
